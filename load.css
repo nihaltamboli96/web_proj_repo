@@ -1,0 +1,18 @@
+
+
+.loader{
+    height: 200px;
+    width: 200px;
+    border-top: 20px solid #3581B8;
+    border-radius: 50%;
+    border: 20px solid #A79AB2;
+    animation: animet 3s ease-in-out  0s infinite normal;
+}
+@keyframes anime{
+    from{
+        transform: 0deg;
+    }
+    to{
+        transform: 360deg;
+    }
+}
